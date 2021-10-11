@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 11 12:40:24 2021
+
+@author: LINSYVER
+NAMA : Rafli Riansyah
+NIM : 064002100028
+
+"""
+print("rafli riansyah") 
+
+x = int(input("masukan angkanya : "))
+
+while x > 0:
+    for i in range(x):
+        print(x , end="")
+    print()
+    x -=1                        
+
